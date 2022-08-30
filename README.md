@@ -17,7 +17,7 @@ Jeg arbejder med følgende extensions i min VS Code:
 
 Vores maskine har nogle dependencies/programmer den skal bruge, for at fungere undervejs i semesteret.
 
-### Node
+### NodeJS
 
 > [Download link](www.nodejs.org)
 
@@ -29,7 +29,7 @@ Normalt ser vi JavaScript kode som en del af en hjemmeside, og det er så her at
 
 > [Download link](www.git-scm.com)
 >
-> _Hvis i sidder på en Mac skal i installere "Brew" først. Følg guiden._
+> _Hvis i sidder på en Mac skal i installere "HomeBrew" først. Følg guiden._
 
 I løbet af semesteret skal i bruge Git, som jeres Versions Control System, altså styre versionen på jeres kode.
 
