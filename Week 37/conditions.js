@@ -3,6 +3,14 @@
 // Øvelse 1.1: (Conditions)
 // Lav en funktion,
 // der fortæller om en input string er minimum 3 karakterer.
+function validateMinimumLength(input) {
+  const resultat = input.length >= 3;
+  console.log(resultat);
+  return resultat;
+}
+
+const isValidString = validateMinimumLength("abc");
+console.log(isValidString);
 
 // Øvelse 1.2: (Logical operators)
 // Udvid funktionen med at den maksimum må være 8 karakterer.
