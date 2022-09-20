@@ -1,0 +1,25 @@
+main {
+  border-right: 0.5px solid rgb(56, 68, 77);
+  flex-grow: 1;
+  width: 66%;
+}
+
+.pips {
+  border-right: 0.5px solid rgb(56, 68, 77);
+  flex-grow: 1;
+  max-width: 600px;
+  min-height: 100vh;
+}
+
+.void {
+  flex-grow: 1;
+}
+
+.title-bar {
+  padding: 16px;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+  backdrop-filter: blur(12px);
+  border-bottom: 0.5px solid rgb(56, 68, 77);
+}

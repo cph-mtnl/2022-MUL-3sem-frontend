@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pipper</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/pips.css" />
+    <link rel="stylesheet" href="styles/pip.css" />
+    <link rel="stylesheet" href="styles/popup.css" />
+    <link rel="stylesheet" href="styles/modal.css" />
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  </head>
+  <body>
+    <!-- Content -->
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <div class="header-width">
+          <div class="fixed-header-container">
+            <div class="header-items header-width">
+              <div class="icon-container">
+                <i data-feather="feather" class="icon"></i>
+                <h1>Pipper</h1>
+              </div>
+              <button onclick="beginNewPipProcess()">Pip</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Pips -->
+      <main>
+        <div class="pips">
+          <div class="title-bar">
+            <h2>Forside</h2>
+          </div>
+          <!-- Pip -->
+          <span id="pips_placeholder">
+            <div></div>
+            <div></div>
+            <div></div>
+            
+          </span>
+        </div>
+      </main>
+    </div>
+
+    <!-- Modal -->
+    <div class="full-screen-overlay" id="pip_modal">
+      <div class="modal-container">
+        <div class="modal-card">
+          <i data-feather="x" class="close-icon" onclick="closePipModal()"></i>
+          <div class="modal-content">
+            <div class="user-section">
+              <span id="avatar-span">
+                <i data-feather="user" class="unknown-icon"></i>
+              </span>
+              <input type="text" placeholder="Username" id="username_input" />
+            </div>
+            <textarea
+              id="pip_textarea"
+              maxlength="255"
+              placeholder="Hvad pipper?"
+            ></textarea>
+            <div class="modal-button-panel">
+              <span class="counter"
+                ><span id="current_amount">0</span>/255</span
+              >
+              <button id="modal-button" onclick="savePip()">Pip</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="scripts/pip-initial-loader.js"></script>
+    <script src="scripts/add-new-pip-modal.js"></script>
+    <script src="scripts/php-api.js"></script>
+    <script src="scripts/components/pip-element.js"></script>
+    <script src="scripts/components/modal.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
