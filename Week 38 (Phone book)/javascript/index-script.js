@@ -15,7 +15,7 @@ form.addEventListener("submit", async (event) => {
 
   if (response.status === 200) {
     clearForm();
-    const newNode = fillContactTemplate(contact);
+    const newNode = createContactElement(contact);
     displayNewNode(newNode);
   }
 });

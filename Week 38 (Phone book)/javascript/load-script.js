@@ -3,7 +3,7 @@ window.addEventListener("load", async () => {
   const data = await getData();
   // Display each of the data elements.
   data.forEach((contact) => {
-    const newNode = fillContactTemplate(contact);
+    const newNode = createContactElement(contact);
     displayNewNode(newNode);
   });
 });

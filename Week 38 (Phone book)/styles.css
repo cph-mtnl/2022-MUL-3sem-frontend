@@ -32,8 +32,8 @@
 .mini-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  padding: 15px;
-  min-width: 25%;
+  padding: 10px;
+  min-width: 250px;
   min-height: 100px;
   margin: 5px 5px;
 }
@@ -100,23 +100,4 @@ i.bi::before {
   display: flex;
   padding: 15px;
   flex-wrap: wrap;
-}
-
-h3 span + button {
-  float: right;
-  background-color: inherit;
-  border: none;
-  cursor: pointer;
-  height: 32px;
-  width: 32px;
-  margin: -5px;
-  border-radius: 50%;
-}
-
-h3 span + button > i.bi::before {
-  font-size: 1rem;
-}
-
-h3 span + button:active {
-  background-color: whitesmoke;
 }
