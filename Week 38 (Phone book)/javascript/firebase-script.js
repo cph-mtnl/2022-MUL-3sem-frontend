@@ -1,5 +1,5 @@
 const yourId = "";
-const url = `https://web-1st-semester-default-rtdb.europe-west1.firebasedatabase.app/web-update-project/${yourId}.json`;
+const url = `https://mul-3rd-sem-default-rtdb.europe-west1.firebasedatabase.app//mul-phone-book/${yourId}.json`;
 
 async function getData() {
   const response = await fetch(url);
