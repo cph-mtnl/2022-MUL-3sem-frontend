@@ -1,4 +1,4 @@
-const yourId = "-NCgHF5AIXWt0NoVANCT";
+const yourId = "";
 const url = `https://mul-3rd-sem-default-rtdb.europe-west1.firebasedatabase.app/mul-phone-book/${yourId}`;
 
 async function getData() {
