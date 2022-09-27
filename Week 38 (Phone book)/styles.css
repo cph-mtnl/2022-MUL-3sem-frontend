@@ -101,3 +101,22 @@ i.bi::before {
   padding: 15px;
   flex-wrap: wrap;
 }
+
+h3 span + button {
+  float: right;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+  margin: -5px;
+  border-radius: 50%;
+}
+
+h3 span + button > i.bi::before {
+  font-size: 1rem;
+}
+
+h3 span + button:active {
+  background-color: whitesmoke;
+}
