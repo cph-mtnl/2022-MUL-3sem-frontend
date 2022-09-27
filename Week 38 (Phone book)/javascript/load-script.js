@@ -1,4 +1,6 @@
 window.addEventListener("load", async () => {
+  clearForm();
+  clearUpdateForm();
   // Get data from backend
   const data = await getData();
   console.log(data);

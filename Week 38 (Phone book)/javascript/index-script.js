@@ -14,6 +14,8 @@ form.addEventListener("submit", async (event) => {
   const response = await postData(contact);
 
   if (response.status === 200) {
+    const body = await response.json();
+    contact.id = body.name;
     clearForm();
     const newNode = createContactElement(contact);
     displayNewNode(newNode);
