@@ -35,5 +35,5 @@ function editFunction(contact) {
   document.querySelector("#update-company").value = contact.company;
   document.querySelector("#update-phone").value = contact.phone;
   document.querySelector("#update-email").value = contact.email;
-  document.querySelector("#id-temp").innerHTML = contact.id;
+  tempId = contact.id;
 }

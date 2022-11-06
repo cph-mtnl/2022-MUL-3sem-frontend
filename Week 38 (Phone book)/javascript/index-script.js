@@ -1,4 +1,5 @@
 const form = document.querySelector("#new-contact-form");
+let tempId = "";
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault();

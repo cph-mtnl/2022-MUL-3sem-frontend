@@ -1,3 +1,5 @@
 .vscode/settings.json
 /snippets
 .DS_Store
+*.idea
+*/node_modules
