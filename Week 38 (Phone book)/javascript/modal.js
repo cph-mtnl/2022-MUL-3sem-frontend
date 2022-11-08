@@ -4,7 +4,7 @@
 
 const escapeListener = (event) => {
   if (event.key === "Escape") {
-    closePipModal();
+    closeModal();
   }
 };
 
