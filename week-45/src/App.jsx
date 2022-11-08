@@ -2,6 +2,7 @@ import './App.css';
 import reactLogo from "./logo.svg"
 
 function App() {
+    const facts = ["1", "2"]
   return (
     <div>
         <nav>
